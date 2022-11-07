@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header__nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    gap: 20px;
+}
+.header__nav{
+    padding: 20px;
+    background: peru;
+}
+.header__nav-link{
+    font-size: 30px;
+    color: white;
+}
+.logo{
+    font-size: 40px;
+    color: blueviolet;
+}
