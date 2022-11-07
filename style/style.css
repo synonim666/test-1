@@ -36,3 +36,20 @@ ul{
     font-size: 40px;
     color: blueviolet;
 }
+.header__content{
+    height: 800px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header__content h1{
+    font-size: 50px;
+    color: white;
+}
+.header__content p{
+    font-size: 30px;
+    color: black;
+}
